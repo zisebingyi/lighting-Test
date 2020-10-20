@@ -13,22 +13,22 @@ public class Move : MonoBehaviour {
 	void Update () {
         if (Input.GetKey(KeyCode.W))
         {
-            print("move w");
+            //print("move w");
             this.transform.Translate(Vector3.forward * Time.deltaTime * textspeed);
         }
         else if (Input.GetKey(KeyCode.S))
         {
-            print("move s");
+            //print("move s");
             this.transform.Translate(Vector3.back * Time.deltaTime * textspeed);
         }
         else if (Input.GetKey(KeyCode.A))
         {
-            print("move a");
+            //print("move a");
             this.transform.Translate(Vector3.left * Time.deltaTime * textspeed);
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            print("move d");
+            //print("move d");
             this.transform.Translate(Vector3.right * Time.deltaTime * textspeed);
         }
     }
